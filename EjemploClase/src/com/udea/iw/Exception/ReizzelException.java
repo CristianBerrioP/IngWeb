@@ -1,7 +1,7 @@
 package com.udea.iw.Exception;
 
 public class ReizzelException extends Exception {
-
+	/*Clase encargada de manejar las excepciones*/
 	public ReizzelException() {
 		// TODO Auto-generated constructor stub
 	}

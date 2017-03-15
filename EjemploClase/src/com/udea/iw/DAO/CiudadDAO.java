@@ -9,8 +9,8 @@ import com.udea.iw.Exception.ReizzelException;
  Version 4.7.1 Eclipse
  */
 public interface CiudadDAO {
-	/*Entrega la lista de la base de datos completa de las ciudades*/
-	public static void obtener() throws ReizzelException{
-		
-	}
+	/*Devuelve la lista de las ciudades*/
+	public List<Ciudad> obtener() throws ReizzelException;
+	/*Devuelve la lista de los codigos*/
+	public Ciudad obtener(Long codigo) throws ReizzelException;
 }
